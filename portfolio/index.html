@@ -8,6 +8,40 @@
 <html lang="en">
 <head>
 	<title>Antoinette's Portfolio</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+	<style>
+		caption {
+			font-weight: bold;
+			font-size: 1.2em;
+			margin-bottom: 8px;
+		}
+		
+		table, th, td {
+			border: 2px solid #806315;
+			border-collapse: collapse;
+			padding: 5px 10px;
+		}
+		
+		table {
+			width: 90%;
+			margin: auto;
+		}
+		
+		tr {
+			height: 30px;
+		}
+		
+		th {
+			background-color: #806315;
+			color: white;
+		}
+		
+		tbody tr:nth-child(odd) {
+			background-color: #FFE8AA;
+		}
+		
+		
+	</style>
 </head>
 
 <body>
@@ -16,11 +50,9 @@
 	</header>
 	
 	<nav>
-		<hr />
 		<div><a href="projects.html">Projects</a></div>
 		<div><a href="contact.html">Contact</a></div>
 		<div><a href="testimonials.html">Testimonials</a></div>
-		<hr />
 	</nav>
 	
 	<section>
@@ -37,11 +69,33 @@
 			<img src="images/experiences_pic.jpg" alt="Antoinette's Business"/>
 			<table>
 				<caption>Employment History</caption>
-				<tr><th>Years of Employment</th><th>Title</th><th>Company</th></tr>
-				<tr><td>05/2016 - Present</td><td>Senior Developer</td><td>CACI</td></tr>
-				<tr><td>06/2014 - 05/2016</td><td>Senior Developer</td><td>Z2</td></tr>
-				<tr><td>01/2012 - 09/2016</td><td>Business Manager</td><td>Delaware Kitchen Share</td></tr>
-				</table>
+				
+				<thead>
+					<tr>
+						<th>Years of Employment</th>
+						<th>Title</th>
+						<th>Company</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>05/2016 - Present</td>
+						<td>Senior Developer</td>
+						<td>CACI</td>
+					</tr>
+					<tr>
+						<td>06/2014 - 05/2016</td>
+						<td>Senior Developer</td>
+						<td>Z2</td>
+					</tr>
+					<tr>
+						<td>01/2012 - 09/2016</td>
+						<td>Business Manager</td>
+						<td>Delaware Kitchen Share</td>
+					</tr>
+				</tbody>
+			</table>
 		</article>
 		
 		<article id="hobbies">
@@ -75,7 +129,6 @@
 	</section>
 	
 	<footer>
-		<hr />
 		<p>&copy; 2019 Antoinette Stanley. All rights reserved.</p>
 	</footer>
 
