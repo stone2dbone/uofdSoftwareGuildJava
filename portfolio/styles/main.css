@@ -1,0 +1,28 @@
+/*
+Name: Antoinette Stanley
+Date Created: 01/01/2019
+Most recent revision: 01/05/2019
+*/
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	color: black;
+}
+
+header, footer {
+	background-color: #226666;
+	color: white;
+	height: 100px;
+	text-align: center;	
+	padding: 30px 10px 20px 10px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+nav {
+	border-top: 3px dashed #323776;
+	border-bottom: 3px dashed #323776;
+	margin-top: 4px;
+}

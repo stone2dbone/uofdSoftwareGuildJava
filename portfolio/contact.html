@@ -9,6 +9,62 @@
 <html lang="en">
 <head>
 	<title>Antoinette's Contact Info</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+	<style>
+
+		label, fieldset{
+			font-size: 1.1em;
+		}
+
+		input[type=text] {
+			border: 2px solid #323776;
+			width: 50%;
+			padding: 8px 8px;
+			margin: 12px 0;
+			box-sizing: border-box;
+			font-size: 1.1em;
+		}
+
+		fieldset {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 12px 0;
+			box-sizing:	border-box;
+		}
+
+		select, textarea {
+			margin: 12px 0;
+			font-size: 1em;
+		}
+
+		input[type=submit] {
+			font-size: 1.2em;
+			background-color: #AA6C39;
+			color: #FFD1AA;
+			padding: 4px 8px;
+			border-radius: 8px;
+		}
+
+		input[type=submit]:hover {
+			background-color: #804515;
+			color: #D49A6A;
+			border-radius: 8px;
+		}
+
+		textarea {
+			width: 100%;
+			height: 200px;
+			padding: 12px 20px;
+			margin: 12px 0;
+			box-sizing: border-box;
+			border: 2px solid #323776;
+			border-radius: 3px;
+			background-color: #fff;
+			resize: none;
+		}
+	
+	</style>
+	
 </head>
 
 <body>
@@ -65,7 +121,8 @@
 	<label for="info">Additional Information</label><br />
 	<textarea id="info" name="info"></textarea><br />
 	
-	<input type="submit" name="submit" value="Submit">
+	<input type="submit" name="submit" value="Submit"><br /><br />
+	
 	</form>
 	<footer></footer>
 </body>

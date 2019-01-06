@@ -26,17 +26,17 @@
 		<hr />
 	</nav>
 	
-	<section id="main">
-	<form action="submit.html"method="POST">
+	<section id="main" align="center">
+	<form action="submit.html" method="POST">
 	<!-- name -->
 	<label for="name">Name:  </label>
-	<input type="text" id="name" name="name"></input><br />
+	<input type="text" id="name" name="name" required></input><br />
 	<!-- email -->
 	<label for="name">Email:  </label>
 	<input type="text" id="email" name="email"></input><br />
 	<!-- phone -->
 	<label for="name">Phone:  </label>
-	<input type="text" id="phone" name="phone"></input><br />
+	<input type="text" id="phone" name="phone" required></input><br />
 	<!-- inquiry -->
 	<label for="name">Reason for Inquiry:  </label>
 	<select id="inquiry" name="inquiry">
@@ -65,7 +65,7 @@
 		<input type="checkbox" id="thursday" name="contactDay" value="thursday">
 		<label for="thursday">Th</label>
 		<input type="checkbox" id="friday" name="contactDay" value="friday">
-		<label for="friday">F</label>
+		<label for="friday">F</label><br />
 	<!-- submit -->	
 	<input type="submit" name="submit" value="Send Request">
 	</form>	
