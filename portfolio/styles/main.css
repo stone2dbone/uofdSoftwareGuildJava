@@ -7,6 +7,8 @@ Most recent revision: 01/05/2019
 body {
 	font-family: arial, helvetica, sans-serif;
 	color: black;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 header, footer {
@@ -25,4 +27,35 @@ nav {
 	border-top: 3px dashed #323776;
 	border-bottom: 3px dashed #323776;
 	margin-top: 4px;
+}
+
+nav a {
+	background-color: #7E82B1;
+	color: #080C3B;
+	padding: 8px;
+	border: thin solid white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #080C3B;
+	color: #7E82B1;
+
+}
+
+nav a:active {
+	font-weight: bold;
+}
+
+nav a:visited {
+	color: #white;
+}
+
+.clear-float {
+	clear:both;
 }
