@@ -1,0 +1,52 @@
+
+/*
+	Name: Antoinette Stanley
+	Date Created: 01/07/2019
+	Most recent revision:
+*/
+
+body {
+	font-family: arial, helvetica, sans-serif;
+}
+
+header, footer {
+	background-color: #1D9DD3;
+	color: #F3CCE3;
+	height: 100px;
+	text-align: center;
+}
+
+header {
+	padding: 30px;
+}
+
+#main {
+	background-color: #F2E6CB;
+}
+
+nav a {
+    background-color: #4D5997;
+    color: #F3CCE3;
+    padding: 8px;
+    text-align: center;
+	display: block;
+	margin: 5px;
+	width: 100px;
+	float: left;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav a:active {
+	text-decoration: none;
+}
+
+nav a:visited {
+	background-color: #1D9DD3
+}
+
+.clear-float {
+	clear: both;
+}
